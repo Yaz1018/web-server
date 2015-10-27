@@ -20,7 +20,7 @@ app.use(middleWare.logger)
 // /about
 // about us
 app.get('/about', middleWare.requireAuthentication, function (req, res) {
-    res.send('About Us');
+    res.send('About Us!S');
 });
 
 app.use(express.static(__dirname +'/public'));
